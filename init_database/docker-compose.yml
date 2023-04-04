@@ -13,7 +13,6 @@ services:
     restart: always
     volumes:
       - /opt/lab1/init_database/data:/var/lib/postgresql/data
-    #  - /opt/lab1/init_database:/home/jovyan/work/init_database
     ports:
       - "5432:5432"
       
