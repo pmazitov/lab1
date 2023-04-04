@@ -12,6 +12,7 @@ sudo docker-compose --project-name="habr-pg-14" up -d
     
 ## Log in Jupyter Lab instance
 Go to http://localhost:8888/
+
 Login credentials can be found in [docker-compose.yml](./init_database/docker-compose.yml)
 
 
